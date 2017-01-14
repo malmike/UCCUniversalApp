@@ -1,0 +1,15 @@
+# Comment 
+
+UCCUniversalApp/UCCUniversalApp.Windows/obj/
+UCCUniversalApp/UCCUniversalApp.Windows/Bin/
+UCCUniversalApp/UCCUniversalApp.WindowsPhone/obj/
+UCCUniversalApp/UCCUniversalApp.WindowsPhone/Bin/
+UCCUniversalApp.v12.suo
+UCCUniversalApp.suo
+Thumbs.db
+.DS_Store
+*.zip
+*.gz
+*.vscode
+packages/
+.vs

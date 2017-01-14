@@ -1,0 +1,51 @@
+
+Welcome to FreeWebHostingArea.com!
+ 
+
+Dear user, your account malmike21.freevar.com was successfully activated on ramses.freewha.com server.
+
+Address
+http://malmike21.freevar.com 
+ 
+
+Account Manager:
+http://malmike21.freevar.com/cpanel.
+Username: malmike21.freevar.com
+Password: root1234
+
+
+If you have accounts created on more than one server, see http://www.freewebhostingarea.com/members/.
+
+  
+Some scripts require server path. Yours is  /home/vhosts/malmike21.freevar.com.
+ 
+
+Your Personal FTP Information:
+ 
+
+FTP Server/Host:
+malmike21.freevar.com
+FTP Login/Username: malmike21.freevar.com
+FTP PassWord: root1234
+ 
+To upload your files go to our Web based FTP client (recommended), located at http://malmike21.freevar.com/ftp/.
+
+FOR HELP
+http://malmike21.freevar.com/ftp/help.html.
+ 
+
+MySQL database Information:
+ 
+
+You will get a limited number of free databases per account. But you can create other accounts and get as many free databases as you want.
+
+ATTENTION!!!   MySQL databases must be activated @ Account Manager  >> Hit  Create DB   button.
+
+MySQL HostName is localhost only. We don't allow external connections.
+
+phpMyAdmin is located at http://malmike21.freevar.com/pma/. Log in using MySQL username.
+
+PhpMyAdmin (PMA) is a tool that will help you to administer your database. You don't have privileges to create a database with PMA because, as said before, databases must be created  @ Account Manager using Create DB   button.
+
+Database details (db name, username) will be provided at Account Manager once you create the database.
+ 

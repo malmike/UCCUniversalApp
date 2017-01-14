@@ -1,0 +1,198 @@
+﻿<Page
+    x:Class="UCCUniversalApp.UserAccessPanel"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UCCUniversalApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Background="#FF013359">
+
+    <Page.Resources>
+        <ResourceDictionary>
+
+            <DataTemplate x:Key="HubSectionHeaderTemplate">
+                <TextBlock Margin="0,0,0,-9.5" Style="{ThemeResource SubheaderTextBlockStyle}" Text="{Binding}"/>
+            </DataTemplate>
+
+            <DataTemplate x:Key="EmployeeDetails">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" Margin="0,0,0,10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0">
+                            <TextBlock TextWrapping="Wrap" Style="{ThemeResource GroupHeaderTextBlockStyle}" Text="Employee Name" />
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid Grid.Column="0">
+                                    <TextBlock TextWrapping="Wrap" Margin="0,0,15,0" Style="{ThemeResource ListViewItemTextBlockStyle}" Text="{Binding FirstName}" />
+                                </Grid>
+                                <Grid Grid.Column="1">
+                                    <TextBlock TextWrapping="Wrap" Style="{StaticResource ListViewItemTextBlockStyle}" Text="{Binding LastName}" />
+                                </Grid>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                    <Grid Grid.Row="1" Margin="0,0,0,10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition />
+                            <RowDefinition />
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0" >
+                            <TextBlock TextWrapping="Wrap" Style="{ThemeResource GroupHeaderTextBlockStyle}" Text="Employee ID" />
+                        </Grid>
+                        <Grid Grid.Row="1">
+                            <TextBlock  TextWrapping="Wrap" Style="{ThemeResource ListViewItemTextBlockStyle}" Text="{Binding EmpFn}" />
+                        </Grid>
+                    </Grid>
+                </Grid>
+            </DataTemplate>
+
+
+            <DataTemplate x:Key="CheckInDetails">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0">
+
+                        <TextBlock TextWrapping="Wrap" Style="{ThemeResource ListViewItemTextBlockStyle}" Text="{Binding EmpName}" />
+                    </Grid>
+                    <Grid Grid.Row="1">
+                        <TextBlock TextWrapping="Wrap" Style="{ThemeResource ListViewEmptyStaticTextBlockStyle}" Text="{Binding Location}" />
+                    </Grid>
+                    <Grid Grid.Row="2">
+                        <TextBlock HorizontalAlignment="Stretch" 
+                                   Style="{ThemeResource ComboBoxPlaceholderTextBlockStyle}" 
+                                   TextWrapping="Wrap" Text="{Binding CheckType}" 
+                                   VerticalAlignment="Bottom" 
+                                   />
+                    </Grid>
+                </Grid>
+            </DataTemplate>
+            <DataTemplate x:Key="CheckType">
+                <Border Width="105" Margin="0,9,24,0">
+
+                </Border>
+            </DataTemplate>
+
+        </ResourceDictionary>
+    </Page.Resources>
+
+    <Grid x:Name="ContentPanel" Grid.Row="0" Margin="0,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="8*"/>
+            <ColumnDefinition Width="5*"/>
+            <ColumnDefinition Width="27*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Background="#FF1664A7" Grid.ColumnSpan="4" Margin="0,0,0,0.167" d:LayoutOverrides="TopPosition, BottomPosition">
+            <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,0,0,0" Orientation="Horizontal" Height="79" VerticalAlignment="Top">
+                <Image Source="Assets/Logo.scale-80.png" Height="79"/>
+                <TextBlock Margin="10,0,0,0" Text="UCC FIELD APPLICATION" Style="{ThemeResource BaseTextBlockStyle}" VerticalAlignment="Center" FontSize="25.333"/>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1" Background="#FF0078D7" Grid.ColumnSpan="4" Margin="0,-0.167,0,0">
+            <Pivot Margin="0,0,0,0" SelectionChanged="Pivot_SelectionChanged">
+                <PivotItem x:Name="Details" Header="Details" >
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Grid.Row="0">
+                            <ListView
+                            x:Name="lvEmployee"
+                            ItemTemplate="{StaticResource EmployeeDetails}"
+                            >
+                                <DataTemplate></DataTemplate>
+                            </ListView>
+                        </Grid>
+
+
+                        <Grid Grid.Row="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <Grid Grid.Row="0" >
+                                <TextBlock TextWrapping="Wrap" Style="{ThemeResource GroupHeaderTextBlockStyle}" Text="Supervisor Name" HorizontalAlignment="Left"/>
+                            </Grid>
+                            <Grid Grid.Row="1">
+                                <TextBlock  TextWrapping="Wrap" Style="{ThemeResource ListViewItemTextBlockStyle}" Name="supervisorName"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Name="CheckIO" Header="CheckIn/Out" Width="Auto">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0" Margin="0,0,0,20">
+                            <StackPanel>
+                                <TextBlock HorizontalAlignment="Left" Style="{ThemeResource ListViewEmptyStaticTextBlockStyle}" TextWrapping="Wrap" Text="ENTER LOCATION" VerticalAlignment="Top" />
+                                <TextBox Name="locationBox" TextWrapping="Wrap" VerticalAlignment="Top"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Grid.Row="1"  Margin="0,0,0,20">
+                            <StackPanel>
+                                <TextBlock HorizontalAlignment="Left" Style="{ThemeResource ListViewEmptyStaticTextBlockStyle}" TextWrapping="Wrap" Text="ENTER REASON" VerticalAlignment="Top"/>
+                                <TextBox Name="reasonBox"  TextWrapping="Wrap" VerticalAlignment="Top" Margin="0,0,-0.5,0"/>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Grid.Row="2" Margin="0,10,0,0">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid Grid.Column="0">
+                                <Button Name="checkIn" Content="CheckIn" HorizontalAlignment="Stretch" VerticalAlignment="Top"  Click="checkingIn"/>
+                            </Grid>
+                            <Grid Grid.Column="1">
+                                <Button Name="checkOut" Content="CheckOut" HorizontalAlignment="Stretch" VerticalAlignment="Top" Click="checkingOut" />
+                            </Grid>
+                        </Grid>
+                    </Grid>
+                </PivotItem>
+                <PivotItem x:Name="SuperV" Header="Supervisor" Width="Auto" >
+                    <Grid>
+                        <ListView
+                            x:Name="lvCheckIn"
+                            ItemTemplate="{StaticResource CheckInDetails}"                          
+                            >
+                            <DataTemplate>
+                            </DataTemplate>
+                        </ListView>
+                    </Grid>
+                </PivotItem>
+            </Pivot>
+        </Grid>
+    </Grid>
+
+    <Page.BottomAppBar>
+        <CommandBar x:Name="bottomCommandBar" Background="#FF022D4E">
+            <AppBarButton Icon="SelectAll" Label="Select" Click="Selection_Change"/>
+            <AppBarButton Icon="Refresh" Label="Refresh" Click="Refresh_Data"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

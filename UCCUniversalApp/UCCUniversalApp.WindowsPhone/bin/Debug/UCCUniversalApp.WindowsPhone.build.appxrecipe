@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MALMIKE</Machine>
+    <WindowsUser>malmike21</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>f837e833-4b2b-4ba5-94db-c7982807e3b0</PackageIdentityName>
+    <IntermediateOutputPath>D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.WindowsPhone\bin\Debug\UCCUniversalApp.WindowsPhone.exe">
+      <PackagePath>UCCUniversalApp.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\PushLibrary\bin\Debug\PushLibrary.winmd">
+      <PackagePath>PushLibrary.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\RawPushBackGroundTask\bin\Debug\RawPushBackGroundTask.winmd">
+      <PackagePath>RawPushBackGroundTask.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Background.png">
+      <PackagePath>Assets\Background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Icons\SplashScreen.scale-100.png">
+      <PackagePath>Assets\Icons\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Icons\SplashScreen.scale-240.png">
+      <PackagePath>Assets\Icons\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Icons\ucc_logo_24.scale-100.png">
+      <PackagePath>Assets\Icons\ucc_logo_24.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Icons\ucc_logo_24.scale-140.png">
+      <PackagePath>Assets\Icons\ucc_logo_24.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SmallLogo.targetsize-16_2.png">
+      <PackagePath>Assets\SmallLogo.targetsize-16_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SmallLogo.targetsize-256.png">
+      <PackagePath>Assets\SmallLogo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SmallLogo.targetsize-32.png">
+      <PackagePath>Assets\SmallLogo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SplashScreen.scale-480.png">
+      <PackagePath>Assets\SplashScreen.scale-480.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.scale-100.png">
+      <PackagePath>Assets\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.scale-140.png">
+      <PackagePath>Assets\Square30x30Logo.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.scale-180.png">
+      <PackagePath>Assets\Square30x30Logo.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.scale-80.png">
+      <PackagePath>Assets\Square30x30Logo.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.targetsize-256.png">
+      <PackagePath>Assets\Square30x30Logo.targetsize-256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.targetsize-32.png">
+      <PackagePath>Assets\Square30x30Logo.targetsize-32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.targetsize-48.png">
+      <PackagePath>Assets\Square30x30Logo.targetsize-48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_106.png">
+      <PackagePath>Assets\ucc_logo_106.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_1116.png">
+      <PackagePath>Assets\ucc_logo_1116.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_120.png">
+      <PackagePath>Assets\ucc_logo_120.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_126.png">
+      <PackagePath>Assets\ucc_logo_126.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_150.scale-100.png">
+      <PackagePath>Assets\ucc_logo_150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_150.scale-140.png">
+      <PackagePath>Assets\ucc_logo_150.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_150.scale-240.png">
+      <PackagePath>Assets\ucc_logo_150.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_16.png">
+      <PackagePath>Assets\ucc_logo_16.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_170.png">
+      <PackagePath>Assets\ucc_logo_170.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_173.png">
+      <PackagePath>Assets\ucc_logo_173.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_200.png">
+      <PackagePath>Assets\ucc_logo_200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_210.png">
+      <PackagePath>Assets\ucc_logo_210.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_24.png">
+      <PackagePath>Assets\ucc_logo_24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_24.scale-100.png">
+      <PackagePath>Assets\ucc_logo_24.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_248.png">
+      <PackagePath>Assets\ucc_logo_248.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_248_120.scale-100.png">
+      <PackagePath>Assets\ucc_logo_248_120.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_248_120.scale-140.png">
+      <PackagePath>Assets\ucc_logo_248_120.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_248_120.scale-180.png">
+      <PackagePath>Assets\ucc_logo_248_120.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_248_120.scale-80.png">
+      <PackagePath>Assets\ucc_logo_248_120.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_256.png">
+      <PackagePath>Assets\ucc_logo_256.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_270.png">
+      <PackagePath>Assets\ucc_logo_270.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_30.png">
+      <PackagePath>Assets\ucc_logo_30.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310.png">
+      <PackagePath>Assets\ucc_logo_310.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_150.png">
+      <PackagePath>Assets\ucc_logo_310_150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_2.png">
+      <PackagePath>Assets\ucc_logo_310_2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_2.scale-100.png">
+      <PackagePath>Assets\ucc_logo_310_2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_2.scale-140.png">
+      <PackagePath>Assets\ucc_logo_310_2.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_2.scale-180.png">
+      <PackagePath>Assets\ucc_logo_310_2.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_2.scale-80.png">
+      <PackagePath>Assets\ucc_logo_310_2.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_32.png">
+      <PackagePath>Assets\ucc_logo_32.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_33.png">
+      <PackagePath>Assets\ucc_logo_33.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_360.png">
+      <PackagePath>Assets\ucc_logo_360.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_42.png">
+      <PackagePath>Assets\ucc_logo_42.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_43.scale-100.png">
+      <PackagePath>Assets\ucc_logo_43.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_43.scale-140.png">
+      <PackagePath>Assets\ucc_logo_43.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_43.scale-180.png">
+      <PackagePath>Assets\ucc_logo_43.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_434.png">
+      <PackagePath>Assets\ucc_logo_434.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_434_210.png">
+      <PackagePath>Assets\ucc_logo_434_210.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_44.scale-100.png">
+      <PackagePath>Assets\ucc_logo_44.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_44.scale-140.png">
+      <PackagePath>Assets\ucc_logo_44.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_44.scale-240.png">
+      <PackagePath>Assets\ucc_logo_44.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_48.png">
+      <PackagePath>Assets\ucc_logo_48.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_50.png">
+      <PackagePath>Assets\ucc_logo_50.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_54.png">
+      <PackagePath>Assets\ucc_logo_54.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_558.scale-140.png">
+      <PackagePath>Assets\ucc_logo_558.scale-140.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_558.scale-180.png">
+      <PackagePath>Assets\ucc_logo_558.scale-180.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_558.scale-80.png">
+      <PackagePath>Assets\ucc_logo_558.scale-80.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_558_270.png">
+      <PackagePath>Assets\ucc_logo_558_270.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_56.png">
+      <PackagePath>Assets\ucc_logo_56.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_62.png">
+      <PackagePath>Assets\ucc_logo_62.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_620.png">
+      <PackagePath>Assets\ucc_logo_620.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_70.scale-100.png">
+      <PackagePath>Assets\ucc_logo_70.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_71.scale-100.png">
+      <PackagePath>Assets\ucc_logo_71.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_71.scale-140.png">
+      <PackagePath>Assets\ucc_logo_71.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_71.scale-240.png">
+      <PackagePath>Assets\ucc_logo_71.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_868.png">
+      <PackagePath>Assets\ucc_logo_868.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_90.png">
+      <PackagePath>Assets\ucc_logo_90.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_98.png">
+      <PackagePath>Assets\ucc_logo_98.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_99.png">
+      <PackagePath>Assets\ucc_logo_99.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_splash_screen.png">
+      <PackagePath>Assets\ucc_logo_splash_screen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\UCC_SplashScreen.scale-240.png">
+      <PackagePath>Assets\UCC_SplashScreen.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.WindowsPhone\bin\Debug\UCCUniversalApp.WindowsPhone.xr.xml">
+      <PackagePath>UCCUniversalApp.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\SkyDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

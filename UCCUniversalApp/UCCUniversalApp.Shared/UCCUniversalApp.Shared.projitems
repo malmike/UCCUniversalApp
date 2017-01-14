@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>0b1e43cb-3000-49ad-b58f-cee12cfb7be8</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>UCCUniversalApp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Model\EmployeeCheckIn.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\EmployeeCheckInDataContext.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\EmployeeDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Reasons.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\GetUserDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\InsertUserDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\OnlineURI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\PushNotifications.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\RetrieveValues.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\UpdateEmployeeApproval.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resources\UpdatePushURI.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\SQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite\SQLiteAsync.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\AppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GetEmployeeDetails.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\GetReason.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SharedInformation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\SupervisorViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ApplicationIcon.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Background.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Icons\SplashScreen.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Icons\SplashScreen.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Icons\ucc_logo_24.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Icons\ucc_logo_24.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Logo.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.targetsize-16_2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.targetsize-256.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SmallLogo.targetsize-32.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\SplashScreen.scale-480.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square30x30Logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square30x30Logo.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square30x30Logo.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square30x30Logo.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square30x30Logo.targetsize-256.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square30x30Logo.targetsize-32.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square30x30Logo.targetsize-48.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Square71x71Logo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\StoreLogo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\StoreLogo.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_106.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_1116.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_120.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_126.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_150.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_150.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_150.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_16.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_170.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_173.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_200.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_210.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_24.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_24.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_248.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_248_120.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_248_120.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_248_120.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_248_120.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_256.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_270.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_30.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_310.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_310_150.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_310_2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_310_2.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_310_2.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_310_2.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_310_2.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_32.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_33.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_360.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_42.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_43.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_43.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_43.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_434.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_434_210.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_44.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_44.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_44.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_48.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_50.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_54.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_558.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_558.scale-180.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_558.scale-80.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_558_270.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_56.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_62.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_620.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_70.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_71.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_71.scale-140.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_71.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_868.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_90.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_98.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_99.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ucc_logo_splash_screen.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\UCC_SplashScreen.scale-240.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\WideLogo.scale-240.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>

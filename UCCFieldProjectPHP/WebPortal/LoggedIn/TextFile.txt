@@ -1,0 +1,70 @@
+<?php
+	function supervisorPage($dbo)
+	{
+?>
+
+    <script lang="javascript" src="js/calendar.js"></script>
+       <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>EmployeeName</th>
+            <th>CheckType</th>
+            <th>Location</th>
+            <th>Reason</th>
+            <th>Approve</th>
+            <th>Deny</th>
+          </tr>
+        </thead>
+        <tbody>
+    <?php
+        $id = $_SESSION['SESS_EMPLOYEE_ID'];
+        echo $id;
+
+        //$retrieves="SELECT * FROM `sessions` WHERE `EmpFn`='$id'";
+        //$row=$dbo->prepare($retrieves);
+        //$row->execute();
+
+        //$result=$row->fetchAll(PDO::FETCH_ASSOC);
+		
+	////Check whether the query was successful or not
+
+        $sql="SELECT FirstName, LastName, `CheckType`, `Approval`, `Location`, `Reason`, (emplogs.CheckID)CID FROM `employeelogs` 
+            INNER JOIN (Select FirstName, LastName, CheckID FROM employeelogs 
+            INNER JOIN employees on employeelogs.EmpFn = employees.EmpFn Where Approval='Pending') AS emplogs 
+            on employeelogs.CheckID=emplogs.CheckID where SupervisorEmpFn ='" . $id . "'";
+        echo "<br>". $sql;
+        if(!$dbo)echo "True";
+        $row=$dbo->prepare($sql);
+        $row->execute();
+        echo 1234;
+        $result=$row->fetchAll(PDO::FETCH_ASSOC);
+        
+        echo count($result);
+
+?>     
+
+     
+        
+                <?php
+                foreach($result as $perrow)
+                {
+                ?>
+                    <tr><td><input type="checkbox" name="approvetype[]" value="<?php echo($perrow['CID'])?>"></td>
+                        <td><?php echo($perrow['FirstName']) ?> <?php echo($perrow['LastName']) ?></td>
+                        <td><?php echo($perrow['CheckType']) ?></td>
+                        <td><?php echo($perrow['Location']) ?></td>
+                        <td><?php echo($perrow['Reason']) ?></td>  
+                    </tr>
+                <?php 
+                    }
+                ?>
+            </tbody>
+        </table>  
+        </div>
+    <button type="submit" id="accept" name="accept" class="btn btn-default">APPROVE</button> 
+    <button type="submit" id="deny" name="deny" class="btn btn-default">DENY</button> 
+  </form>      
+  <div style="color: rgb(139, 50, 223); font-style:italic;">Site live updating still under development. Please be sure to refresh every so often for new pending requests</div>
+<?php
+	 }
+?>

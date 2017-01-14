@@ -1,0 +1,551 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MALMIKE</Machine>
+    <WindowsUser>malmike21</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>15806malmike21.UCCUniversalApp</PackageIdentityName>
+    <IntermediateOutputPath>D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>69779527112338A6BC4B14BA1B4E8182717EF4A216CFD658A5C08B22299C1D74</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>15806malmike21.UCCUniversalApp_1.1.0.0_x86__ww0hysryfg12a</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>15806malmike21.UCCUniversalApp_ww0hysryfg12a!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>15806malmike21.UCCUniversalApp</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=70006569-422F-436D-80B0-F21DD04179D0</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-08-19T11:57:58.584</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\bin\x86\Debug\UCCUniversalApp.Windows.exe">
+      <PackagePath>UCCUniversalApp.Windows.exe</PackagePath>
+      <Modified>2015-08-20T10:12:40.015</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\.nuget\NugetRepository\Packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2015-08-02T11:02:41.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\RawPushBGTask\bin\Debug\RawPushBGTask.winmd">
+      <PackagePath>RawPushBGTask.winmd</PackagePath>
+      <Modified>2015-08-05T09:12:45.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\SQLite.WinRT81\3.8.11.1\Redist\Debug\x86\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2015-08-19T07:40:08.373</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <Modified>2015-08-19T12:01:58.632</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\SmallLogo.scale-140.png">
+      <PackagePath>Assets\SmallLogo.scale-140.png</PackagePath>
+      <Modified>2015-07-20T11:32:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\SmallLogo.scale-180.png">
+      <PackagePath>Assets\SmallLogo.scale-180.png</PackagePath>
+      <Modified>2015-07-20T11:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\SmallLogo.scale-80.png">
+      <PackagePath>Assets\SmallLogo.scale-80.png</PackagePath>
+      <Modified>2015-08-19T12:05:22.291</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\SmallLogo.targetsize-16.png">
+      <PackagePath>Assets\SmallLogo.targetsize-16.png</PackagePath>
+      <Modified>2015-07-20T11:33:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\SmallLogo.targetsize-32.png">
+      <PackagePath>Assets\SmallLogo.targetsize-32.png</PackagePath>
+      <Modified>2015-07-20T11:32:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\SmallLogo.targetsize-48.png">
+      <PackagePath>Assets\SmallLogo.targetsize-48.png</PackagePath>
+      <Modified>2015-07-20T11:32:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\Square30x30Logo.targetsize-16.png">
+      <PackagePath>Assets\Square30x30Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:33:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\StoreLogo.scale-140.png">
+      <PackagePath>Assets\StoreLogo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:30:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\StoreLogo.scale-180.png">
+      <PackagePath>Assets\StoreLogo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:29:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\ucc_logo_558.scale-100.png">
+      <PackagePath>Assets\ucc_logo_558.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:14:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\ucc_logo_70.scale-140.png">
+      <PackagePath>Assets\ucc_logo_70.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\ucc_logo_70.scale-180.png">
+      <PackagePath>Assets\ucc_logo_70.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:28:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\Assets\ucc_logo_70.scale-80.png">
+      <PackagePath>Assets\ucc_logo_70.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:30:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ApplicationIcon.png">
+      <PackagePath>Assets\ApplicationIcon.png</PackagePath>
+      <Modified>2015-07-20T06:22:09.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Background.png">
+      <PackagePath>Assets\Background.png</PackagePath>
+      <Modified>2015-07-20T06:22:09.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Icons\SplashScreen.scale-100.png">
+      <PackagePath>Assets\Icons\SplashScreen.scale-100.png</PackagePath>
+      <Modified>2015-07-20T09:53:11.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Icons\SplashScreen.scale-240.png">
+      <PackagePath>Assets\Icons\SplashScreen.scale-240.png</PackagePath>
+      <Modified>2015-07-20T09:43:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Icons\ucc_logo_24.scale-100.png">
+      <PackagePath>Assets\Icons\ucc_logo_24.scale-100.png</PackagePath>
+      <Modified>2015-07-20T10:03:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Icons\ucc_logo_24.scale-140.png">
+      <PackagePath>Assets\Icons\ucc_logo_24.scale-140.png</PackagePath>
+      <Modified>2015-07-20T10:03:37.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <Modified>2015-07-20T09:25:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Logo.scale-140.png">
+      <PackagePath>Assets\Logo.scale-140.png</PackagePath>
+      <Modified>2015-07-20T09:24:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Logo.scale-180.png">
+      <PackagePath>Assets\Logo.scale-180.png</PackagePath>
+      <Modified>2015-07-20T11:18:47.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <Modified>2014-03-14T07:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Logo.scale-80.png">
+      <PackagePath>Assets\Logo.scale-80.png</PackagePath>
+      <Modified>2015-07-20T09:26:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <Modified>2014-03-14T07:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SmallLogo.targetsize-16_2.png">
+      <PackagePath>Assets\SmallLogo.targetsize-16_2.png</PackagePath>
+      <Modified>2015-07-20T11:33:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SmallLogo.targetsize-256.png">
+      <PackagePath>Assets\SmallLogo.targetsize-256.png</PackagePath>
+      <Modified>2015-07-20T11:25:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:56:11.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SplashScreen.scale-140.png">
+      <PackagePath>Assets\SplashScreen.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:55:41.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SplashScreen.scale-180.png">
+      <PackagePath>Assets\SplashScreen.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:54:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T09:43:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\SplashScreen.scale-480.png">
+      <PackagePath>Assets\SplashScreen.scale-480.png</PackagePath>
+      <Modified>2015-07-20T09:53:11.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.scale-100.png">
+      <PackagePath>Assets\Square30x30Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:33:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.scale-140.png">
+      <PackagePath>Assets\Square30x30Logo.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:32:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.scale-180.png">
+      <PackagePath>Assets\Square30x30Logo.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.scale-80.png">
+      <PackagePath>Assets\Square30x30Logo.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T10:03:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.targetsize-256.png">
+      <PackagePath>Assets\Square30x30Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:25:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.targetsize-32.png">
+      <PackagePath>Assets\Square30x30Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:32:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square30x30Logo.targetsize-48.png">
+      <PackagePath>Assets\Square30x30Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:32:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <Modified>2014-03-14T07:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T09:30:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-14T07:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_106.png">
+      <PackagePath>Assets\ucc_logo_106.png</PackagePath>
+      <Modified>2015-07-20T09:27:25.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_1116.png">
+      <PackagePath>Assets\ucc_logo_1116.png</PackagePath>
+      <Modified>2015-07-20T11:54:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_120.png">
+      <PackagePath>Assets\ucc_logo_120.png</PackagePath>
+      <Modified>2015-07-20T09:26:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_126.png">
+      <PackagePath>Assets\ucc_logo_126.png</PackagePath>
+      <Modified>2015-07-20T11:28:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_150.scale-100.png">
+      <PackagePath>Assets\ucc_logo_150.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T09:25:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_150.scale-140.png">
+      <PackagePath>Assets\ucc_logo_150.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T09:24:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_150.scale-240.png">
+      <PackagePath>Assets\ucc_logo_150.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T09:23:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_16.png">
+      <PackagePath>Assets\ucc_logo_16.png</PackagePath>
+      <Modified>2015-07-20T11:33:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_170.png">
+      <PackagePath>Assets\ucc_logo_170.png</PackagePath>
+      <Modified>2015-07-20T09:25:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_173.png">
+      <PackagePath>Assets\ucc_logo_173.png</PackagePath>
+      <Modified>2015-07-20T06:22:09.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_200.png">
+      <PackagePath>Assets\ucc_logo_200.png</PackagePath>
+      <Modified>2015-07-20T09:22:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_210.png">
+      <PackagePath>Assets\ucc_logo_210.png</PackagePath>
+      <Modified>2015-07-20T09:24:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_24.png">
+      <PackagePath>Assets\ucc_logo_24.png</PackagePath>
+      <Modified>2015-07-20T10:03:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_24.scale-100.png">
+      <PackagePath>Assets\ucc_logo_24.scale-100.png</PackagePath>
+      <Modified>2015-07-20T10:03:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_248.png">
+      <PackagePath>Assets\ucc_logo_248.png</PackagePath>
+      <Modified>2015-07-20T11:14:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_248_120.scale-100.png">
+      <PackagePath>Assets\ucc_logo_248_120.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T12:07:39.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_248_120.scale-140.png">
+      <PackagePath>Assets\ucc_logo_248_120.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T12:07:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_248_120.scale-180.png">
+      <PackagePath>Assets\ucc_logo_248_120.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T12:06:17.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_248_120.scale-80.png">
+      <PackagePath>Assets\ucc_logo_248_120.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T12:08:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_256.png">
+      <PackagePath>Assets\ucc_logo_256.png</PackagePath>
+      <Modified>2015-07-20T11:25:57.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_270.png">
+      <PackagePath>Assets\ucc_logo_270.png</PackagePath>
+      <Modified>2015-07-20T11:18:47.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_30.png">
+      <PackagePath>Assets\ucc_logo_30.png</PackagePath>
+      <Modified>2015-07-20T11:33:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310.png">
+      <PackagePath>Assets\ucc_logo_310.png</PackagePath>
+      <Modified>2015-07-20T09:57:19.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_150.png">
+      <PackagePath>Assets\ucc_logo_310_150.png</PackagePath>
+      <Modified>2015-07-20T12:07:39.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_2.png">
+      <PackagePath>Assets\ucc_logo_310_2.png</PackagePath>
+      <Modified>2015-07-20T11:14:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_2.scale-100.png">
+      <PackagePath>Assets\ucc_logo_310_2.scale-100.png</PackagePath>
+      <Modified>2015-07-20T11:14:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_2.scale-140.png">
+      <PackagePath>Assets\ucc_logo_310_2.scale-140.png</PackagePath>
+      <Modified>2015-07-20T11:13:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_2.scale-180.png">
+      <PackagePath>Assets\ucc_logo_310_2.scale-180.png</PackagePath>
+      <Modified>2015-07-20T11:12:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_310_2.scale-80.png">
+      <PackagePath>Assets\ucc_logo_310_2.scale-80.png</PackagePath>
+      <Modified>2015-07-20T11:14:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_32.png">
+      <PackagePath>Assets\ucc_logo_32.png</PackagePath>
+      <Modified>2015-07-20T11:32:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_33.png">
+      <PackagePath>Assets\ucc_logo_33.png</PackagePath>
+      <Modified>2015-07-20T10:03:37.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_360.png">
+      <PackagePath>Assets\ucc_logo_360.png</PackagePath>
+      <Modified>2015-07-20T09:23:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_42.png">
+      <PackagePath>Assets\ucc_logo_42.png</PackagePath>
+      <Modified>2015-07-20T11:32:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_43.scale-100.png">
+      <PackagePath>Assets\ucc_logo_43.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T10:03:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_43.scale-140.png">
+      <PackagePath>Assets\ucc_logo_43.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T10:03:37.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_43.scale-180.png">
+      <PackagePath>Assets\ucc_logo_43.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T12:12:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_434.png">
+      <PackagePath>Assets\ucc_logo_434.png</PackagePath>
+      <Modified>2015-07-20T11:13:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_434_210.png">
+      <PackagePath>Assets\ucc_logo_434_210.png</PackagePath>
+      <Modified>2015-07-20T12:07:01.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_44.scale-100.png">
+      <PackagePath>Assets\ucc_logo_44.scale-100.png</PackagePath>
+      <Modified>2015-07-20T09:30:55.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_44.scale-140.png">
+      <PackagePath>Assets\ucc_logo_44.scale-140.png</PackagePath>
+      <Modified>2015-07-20T09:30:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_44.scale-240.png">
+      <PackagePath>Assets\ucc_logo_44.scale-240.png</PackagePath>
+      <Modified>2015-07-20T09:27:25.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_48.png">
+      <PackagePath>Assets\ucc_logo_48.png</PackagePath>
+      <Modified>2015-07-20T11:32:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_50.png">
+      <PackagePath>Assets\ucc_logo_50.png</PackagePath>
+      <Modified>2015-07-20T09:30:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_54.png">
+      <PackagePath>Assets\ucc_logo_54.png</PackagePath>
+      <Modified>2015-07-20T11:31:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_558.scale-140.png">
+      <PackagePath>Assets\ucc_logo_558.scale-140.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:13:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_558.scale-180.png">
+      <PackagePath>Assets\ucc_logo_558.scale-180.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:12:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_558.scale-80.png">
+      <PackagePath>Assets\ucc_logo_558.scale-80.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:14:29.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_558_270.png">
+      <PackagePath>Assets\ucc_logo_558_270.png</PackagePath>
+      <Modified>2015-07-20T12:06:17.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_56.png">
+      <PackagePath>Assets\ucc_logo_56.png</PackagePath>
+      <Modified>2015-07-20T11:30:53.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_62.png">
+      <PackagePath>Assets\ucc_logo_62.png</PackagePath>
+      <Modified>2015-07-20T09:30:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_620.png">
+      <PackagePath>Assets\ucc_logo_620.png</PackagePath>
+      <Modified>2015-07-20T11:56:11.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_70.scale-100.png">
+      <PackagePath>Assets\ucc_logo_70.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-20T11:30:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_71.scale-100.png">
+      <PackagePath>Assets\ucc_logo_71.scale-100.png</PackagePath>
+      <Modified>2015-07-20T09:29:09.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_71.scale-140.png">
+      <PackagePath>Assets\ucc_logo_71.scale-140.png</PackagePath>
+      <Modified>2015-07-20T09:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_71.scale-240.png">
+      <PackagePath>Assets\ucc_logo_71.scale-240.png</PackagePath>
+      <Modified>2015-07-20T09:25:07.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_868.png">
+      <PackagePath>Assets\ucc_logo_868.png</PackagePath>
+      <Modified>2015-07-20T11:55:41.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_90.png">
+      <PackagePath>Assets\ucc_logo_90.png</PackagePath>
+      <Modified>2015-07-20T11:29:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_98.png">
+      <PackagePath>Assets\ucc_logo_98.png</PackagePath>
+      <Modified>2015-07-20T11:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_99.png">
+      <PackagePath>Assets\ucc_logo_99.png</PackagePath>
+      <Modified>2015-07-20T09:28:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\ucc_logo_splash_screen.png">
+      <PackagePath>Assets\ucc_logo_splash_screen.png</PackagePath>
+      <Modified>2015-07-20T09:39:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\UCC_SplashScreen.scale-240.png">
+      <PackagePath>Assets\UCC_SplashScreen.scale-240.png</PackagePath>
+      <Modified>2015-07-20T09:43:33.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Shared\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <Modified>2014-03-14T07:55:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-08-19T07:57:47.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-08-19T07:57:47.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\bin\x86\Debug\RegistrationPage.xbf">
+      <PackagePath>RegistrationPage.xbf</PackagePath>
+      <Modified>2015-08-19T07:57:47.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\bin\x86\Debug\UserAccessPanel.xbf">
+      <PackagePath>UserAccessPanel.xbf</PackagePath>
+      <Modified>2015-08-19T07:57:47.037</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\bin\x86\Debug\UCCUniversalApp.Windows.xr.xml">
+      <PackagePath>UCCUniversalApp.Windows.xr.xml</PackagePath>
+      <Modified>2015-08-19T07:57:43.935</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\malmike21\OneDrive\Documents\Visual Studio 2013\Projects\UCCUniversalApp\UCCUniversalApp\UCCUniversalApp.Windows\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-08-19T11:57:33.112</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

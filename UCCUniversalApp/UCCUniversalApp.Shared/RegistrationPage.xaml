@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="UCCUniversalApp.RegistrationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UCCUniversalApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Margin="10,0,0,0" Text="UCC FIELD APPLICATION" Style="{ThemeResource BaseTextBlockStyle}"/>
+            <TextBlock Text="REGISTRATION" Style="{ThemeResource HeaderTextBlockStyle}" Margin="9,10,0,0" />
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <TextBlock HorizontalAlignment="Left"  TextWrapping="Wrap" Text="ENTER USER ID" VerticalAlignment="Top" FontSize="36" Margin="67,52,0,0"/>
+            <TextBox HorizontalAlignment="Left" TextWrapping="Wrap" Name="UserId" VerticalAlignment="Top" Width="376" Margin="0,126,0,0"/>
+            <Button Content="Submit" HorizontalAlignment="Left" Margin="128,204,0,0" VerticalAlignment="Top" FontSize="24" Click="RegisterUser"/>
+            <TextBlock HorizontalAlignment="Left" Margin="64,366,0,0" TextWrapping="Wrap" Name="Result" VerticalAlignment="Top"/>
+        </Grid>
+    </Grid>
+</Page>

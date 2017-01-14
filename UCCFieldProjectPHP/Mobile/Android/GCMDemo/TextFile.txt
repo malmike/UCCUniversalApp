@@ -1,0 +1,251 @@
+<?php
+    include'../../../ConnectDB/connect.php';
+
+    $tablename = 'registeredemployees'; 
+    $gcm_api_key_passed = 'AIzaSyC6yYTcXC2Urp1hVcAOP6oO4bIpATGaES8';
+
+    //message from url
+    $messageAuto = $_GET['messageAuto'];
+
+	$splitMessage = explode('~~~', $messageAuto);
+	$empName = $splitMessage[0];
+	$checkName = $splitMessage[1];
+	$superEmpFn = $splitMessage[2];
+	$logId = $splitMessage[3];
+	
+	
+	if(strcmp($checkName, 'CheckIn') == 0)
+    {
+		$checkName = 'Check In';
+	}
+	if(strcmp($checkName, 'CheckOut') == 0)
+    {
+		$checkName = 'Check Out';
+	}
+
+
+	$namesArray = explode('___', $empName);
+	$fname = $namesArray[0];
+	$mname = $namesArray[1];
+	$lname = $namesArray[2];
+ 
+
+    /* FUNCTIONS */
+    /** FIND CANONICAL IDS POSITION */
+
+    //function CanonicalIdPosition($gcm_response) 
+    //{
+    //    $canonical_ids = array();
+    //    $sub_strings = array();       
+
+    //    $sub_strings = explode("<br/><br/>", $gcm_response);
+
+    //    for($i=0; $i<count($sub_strings); $i++) 
+    //    {
+    //        if (strpos($sub_strings[$i], 'registration_id') !== false) 
+    //        {
+    //            array_push($canonical_ids, $i);
+    //        }
+    //    }
+
+    //    return $canonical_ids;
+    //}
+
+    /**  Find Duplicate registration Ids from Server Matchind to index position */
+    //function DeleteCanonicalDuplicatesFromTable($canonical_ids) 
+    //{
+    //    $duplicate_reg_val = array();                     
+    //    $tablename = 'registeredemployees'; 
+
+    //    $sql = "SELECT * FROM " . $tablename;
+
+    //    $qry = $dbo->prepare($sql);
+    //    $qry->execute();
+    //    $result=$qry->fetchAll(PDO::FETCH_ASSOC);
+ 
+ //   //    if(count($result)<=0)
+    //    {
+    //        echo '<b>Query error! Gathering duplicates</b><br/>';
+    //        return null;
+    //    }
+
+    //    else 
+    //    {
+    //        //Print canonical indices
+    //        echo '<br/><h3>Canonical Indices: </h3><br/>';
+    //        for($i=0; $i<count($canonical_ids); $i++) 
+    //        {
+    //            echo '<br/> Delete reg_id at index: ' . ($canonical_ids[$i] - 2);
+    //        }
+
+    //        //use the indices from canonical_ids to save reg_ids from the database
+    //        $table_row=0;
+    //        $i=0;
+    //        echo '<br/><h3>Deleted IDs: </h3><br/>';
+
+    //        foreach($result as $row)
+    //        {
+    //            if($table_row == ($canonical_ids[$i] - 2)) 
+    //            {
+    //                array_push($duplicate_reg_val, $row['registration_id']); //registration_id IS A COLUMN NAME
+
+    //                $i++;
+
+    //                //delete the value                        
+    //                $sql2 = "UPDATE " . $tablename . " SET `registration_id`='' WHERE `EmpFn`=" . $row['EmpFn'];
+
+    //                $result2 = $dbo->prepare($sql);
+    //                $result2->execute();
+    //                if(!$result2) 
+    //                {
+    //                    echo '<i>Query error! Deleting duplicate at ID = ' . $row['EmpFn'] . '</i><br/>';
+    //                    return null;
+    //                }
+    //                else 
+    //                {
+    //                    echo $row['EmpFn'] . '  ';
+    //                }
+    //            }
+    //            $table_row++;
+    //        }
+
+    //        
+
+    //        //Print duplicate ids
+
+    //        echo '<br/><br/><br/><h3>Duplicate values: </h3><br/>';
+
+    //        for($i=0; $i<count($duplicate_reg_val); $i++) {
+
+    //            echo '<br/>' . ($i+1) . '. ' . $duplicate_reg_val[$i];
+
+    //        }
+    //    }    
+    //}
+
+    
+
+ 
+
+            //CONNECT TO THE DATABASE and get registration IDs
+
+            //$con = mysql_connect($host, $username, $password);
+
+            //if(!$con)
+
+            //    die('MySQL connection failed3');        
+
+            //$db = mysql_select_db($databasename);
+
+            //if(!$db)
+
+            //    die('Database selection failed3');
+
+            
+			$sqlFetchCheckDetails = "SELECT * FROM employeelogs WHERE CheckID = '" . $logId . "'";
+            $row = $dbo->prepare($sqlFetchCheckDetails);
+            $row->execute();
+            $result=$row->fetchAll(PDO::FETCH_ASSOC);
+
+			//$checkDetails = mysql_query($sqlFetchCheckDetails, $con);
+			foreach($getRow as $element)
+            {
+			    $checktime = $getRow['CheckTime'];
+				$checktype = $getRow['CheckType'];
+				$loc = $getRow['Location'];
+				$reason = $getRow['Reason'];
+			}
+
+			//while($getRow = mysql_fetch_assoc($checkDetails)){
+			//	$checktime = $getRow['CheckTime'];
+			//	$checktype = $getRow['CheckType'];
+			//	$loc = $getRow['Location'];
+			//	$reason = $getRow['Reason'];
+			//	
+			//}
+
+			$allDetails = $checktime."~~~".$checktype."~~~".$loc."~~~".$reason;					
+			$message = $messageAuto."~~~".$allDetails;
+            $message_passed = array("Notice" => $message); 
+
+
+            $registatoin_ids_passed = array();
+
+          
+			$sql = "SELECT * FROM " . $tablename . " WHERE EmpFn = '" . $superEmpFn ."'";
+            $row2 = $dbo->prepare($sql);
+            $row2->execute();
+            $result2=$row2->fetchAll(PDO::FETCH_ASSOC);
+            foreach($row as $element)
+            {
+			    array_push($registatoin_ids_passed, $row['registration_id']);
+			}
+
+
+            $gcm_response = SendGcmNotification($registatoin_ids_passed_new, $message_passed, $gcm_api_key_passed, $dry_run = false);
+
+            //$result = mysql_query($sql, $con);            
+
+            ////array_push($registatoin_ids, 'APA91bHI6mnLlcqU_xRwuDdI20lgX1dEb3YmBH8JLMzUIUM0qO9zew6vCXMnCFakY7GWjp79ThXPnA66naCfmSQOPYJw3qfmltaJh3g-wQBMn_z8ZMM3DuE'); //trying 1 
+
+            //while($row = mysql_fetch_assoc($result)){
+
+            //    array_push($registatoin_ids_passed, $row['registration_id']); //registration_id IS A COLUMN NAME IN THE TABLE
+
+            //}
+
+            
+
+            
+
+            //This Wont Send Notification to Device (it is a dry run) but gives you response to remove canonical ids [for multiple registrations of same device]
+
+            //$gcm_response = SendGcmNotification($registatoin_ids_passed, $message_passed, $gcm_api_key_passed, $dry_run = true);
+
+            // get canonical id positions
+
+            //$canonical_ids = CanonicalIdPosition($gcm_response);
+
+            // replace them in the database
+
+            //if ($canonical_ids) {
+
+            //    DeleteCanonicalDuplicatesFromTable($canonical_ids);
+
+            //}
+
+                        
+
+            // Finally Get updated Registration Ids from table and send to GCM Server (Not a dry run this time)
+
+//            $registatoin_ids_passed_new = array();
+
+//            $sqlEdit = "SELECT * FROM " . $tablename . " WHERE EmpFn = '" . $superEmpFn ."'";
+
+//echo $sqlEdit;
+
+//            $result = mysql_query($sqlEdit, $con);            
+
+//            while($row = mysql_fetch_assoc($result)){
+
+//                array_push($registatoin_ids_passed_new, $row['registration_id']); //registration_id IS A COLUMN NAME IN THE TABLE
+
+//            } 
+
+//            $gcm_response = SendGcmNotification($registatoin_ids_passed_new, $message_passed, $gcm_api_key_passed, $dry_run = false);
+
+            
+/*
+        }        
+
+        else { //if password is wrong
+
+            echo "<br/><br/><b>What'u trying to pull off buddy!?</b><br/><br/>"; //<--------- wrong password message
+
+        }
+
+    }
+*/
+
+
+    ?>
